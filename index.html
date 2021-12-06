@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <script defer src="script.js"></script>
+
+    <title>
+      Frontend Mentor | [social media dashboard with theme switcher master]
+    </title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-box">
+        <div class="header-content">
+          <h1 class="header-content__heading">Social Media Dashboard</h1>
+          <p class="header-content__txt">Total Followers:23,004</p>
+        </div>
+        <div class="header-toggle__con">
+          <span class="header-toggle__con-txt">Dark Mode</span>
+          <input type="checkbox" class="header-toggle__con-btn" />
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="sec sec-top">
+        <div class="sec-box">
+          <div class="sec-box__logo">
+            <img
+              src="images/icon-facebook.svg"
+              alt="instagram logo"
+              class="sec-box__logo-svg"
+            />
+            <p class="sec-box__logo-name">@nathanf</p>
+          </div>
+          <div class="sec-box__follow">
+            <span class="sec-box__follow-num">1987</span>
+            <span class="sec-box__follow-txt">Followers</span>
+          </div>
+          <div class="sec-box__days">
+            <img
+              src="images/icon-up.svg"
+              alt="up arrow"
+              class="sec-box__days-svg"
+            />
+
+            <span class="sec-box__days-num">12 Today</span>
+          </div>
+        </div>
+
+        <div class="sec-box">
+          <div class="sec-box__logo">
+            <img
+              src="images/icon-twitter.svg"
+              alt="instagram logo"
+              class="sec-box__logo-svg"
+            />
+            <p class="sec-box__logo-name">@nathanf</p>
+          </div>
+          <div class="sec-box__follow">
+            <span class="sec-box__follow-num">1044</span>
+            <span class="sec-box__follow-txt">Followers</span>
+          </div>
+          <div class="sec-box__days">
+            <img
+              src="images/icon-up.svg"
+              alt="up arrow"
+              class="sec-box__days-svg"
+            />
+
+            <span class="sec-box__days-num">99 Today</span>
+          </div>
+        </div>
+
+        <div class="sec-box">
+          <div class="sec-box__logo">
+            <img
+              src="images/icon-instagram.svg"
+              alt="instagram logo"
+              class="sec-box__logo-svg"
+            />
+            <p class="sec-box__logo-name">@realnathanf</p>
+          </div>
+          <div class="sec-box__follow">
+            <span class="sec-box__follow-num">11K</span>
+            <span class="sec-box__follow-txt">Followers</span>
+          </div>
+          <div class="sec-box__days">
+            <img
+              src="images/icon-up.svg"
+              alt="up arrow"
+              class="sec-box__days-svg"
+            />
+
+            <span class="sec-box__days-num">1099 Today</span>
+          </div>
+        </div>
+
+        <div class="sec-box">
+          <div class="sec-box__logo">
+            <img
+              src="images/icon-youtube.svg"
+              alt="instagram logo"
+              class="sec-box__logo-svg"
+            />
+            <p class="sec-box__logo-name">Nathan F.</p>
+          </div>
+          <div class="sec-box__follow">
+            <span class="sec-box__follow-num">8239</span>
+            <span class="sec-box__follow-txt">Subscribers</span>
+          </div>
+          <div class="sec-box__days">
+            <img
+              src="images/icon-down.svg"
+              alt="up arrow"
+              class="sec-box__days-svg"
+            />
+
+            <span class="sec-box__days-num">144 Today</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ////////////////////////////////////////////
+         -->
+
+      <section class="sec sec-bot">
+        <h2 class="sec-bot__heading">Overview - Today</h2>
+        <div class="sec-grid">
+          <div class="sec-con">
+            <div class="sec-con__top">
+              <span class="sec-con__top-txt">Page Views</span>
+              <img
+                src="images/icon-facebook.svg"
+                alt="facebook logo"
+                class="sec-con__top-img"
+              />
+            </div>
+            <div class="sec-con__bot">
+              <span class="sec-con__bot-txt">87</span>
+              <div class="sec-con__bot-box">
+                <img
+                  src="images/icon-up.svg"
+                  alt="up arrow"
+                  class="sec-con__bot-box-img"
+                />
+                <span class="sec-con__bot-box-txt">3%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sec-con">
+            <div class="sec-con__top">
+              <span class="sec-con__top-txt">Likes</span>
+              <img
+                src="images/icon-facebook.svg"
+                alt="facebook logo"
+                class="sec-con__top-img"
+              />
+            </div>
+            <div class="sec-con__bot">
+              <span class="sec-con__bot-txt">52</span>
+              <div class="sec-con__bot-box">
+                <img
+                  src="images/icon-down.svg"
+                  alt="down arrow"
+                  class="sec-con__bot-box-img"
+                />
+                <span class="sec-con__bot-box-txt">2%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sec-con">
+            <div class="sec-con__top">
+              <span class="sec-con__top-txt">Likes</span>
+              <img
+                src="images/icon-instagram.svg"
+                alt="instagram logo"
+                class="sec-con__top-img"
+              />
+            </div>
+            <div class="sec-con__bot">
+              <span class="sec-con__bot-txt">5462</span>
+              <div class="sec-con__bot-box">
+                <img
+                  src="images/icon-up.svg"
+                  alt="up arrow"
+                  class="sec-con__bot-box-img"
+                />
+                <span class="sec-con__bot-box-txt">2257%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sec-con">
+            <div class="sec-con__top">
+              <span class="sec-con__top-txt">Profile Views</span>
+              <img
+                src="images/icon-instagram.svg"
+                alt="instagram logo"
+                class="sec-con__top-img"
+              />
+            </div>
+            <div class="sec-con__bot">
+              <span class="sec-con__bot-txt">52K</span>
+              <div class="sec-con__bot-box">
+                <img
+                  src="images/icon-up.svg"
+                  alt="up arrow"
+                  class="sec-con__bot-box-img"
+                />
+                <span class="sec-con__bot-box-txt">1375%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sec-con">
+            <div class="sec-con__top">
+              <span class="sec-con__top-txt">Retweets</span>
+              <img
+                src="images/icon-twitter.svg"
+                alt="twitter logo"
+                class="sec-con__top-img"
+              />
+            </div>
+            <div class="sec-con__bot">
+              <span class="sec-con__bot-txt">117</span>
+              <div class="sec-con__bot-box">
+                <img
+                  src="images/icon-up.svg"
+                  alt="up arrow"
+                  class="sec-con__bot-box-img"
+                />
+                <span class="sec-con__bot-box-txt">303%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sec-con">
+            <div class="sec-con__top">
+              <span class="sec-con__top-txt">Likes</span>
+              <img
+                src="images/icon-twitter.svg"
+                alt="twitter logo"
+                class="sec-con__top-img"
+              />
+            </div>
+            <div class="sec-con__bot">
+              <span class="sec-con__bot-txt">507</span>
+              <div class="sec-con__bot-box">
+                <img
+                  src="images/icon-up.svg"
+                  alt="up arrow"
+                  class="sec-con__bot-box-img"
+                />
+                <span class="sec-con__bot-box-txt">553%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sec-con">
+            <div class="sec-con__top">
+              <span class="sec-con__top-txt">Likes</span>
+              <img
+                src="images/icon-youtube.svg"
+                alt="youtube logo"
+                class="sec-con__top-img"
+              />
+            </div>
+            <div class="sec-con__bot">
+              <span class="sec-con__bot-txt">107</span>
+              <div class="sec-con__bot-box">
+                <img
+                  src="images/icon-down.svg"
+                  alt="down arrow"
+                  class="sec-con__bot-box-img"
+                />
+                <span class="sec-con__bot-box-txt">19%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sec-con">
+            <div class="sec-con__top">
+              <span class="sec-con__top-txt">Total Views</span>
+              <img
+                src="images/icon-youtube.svg"
+                alt="youtube logo"
+                class="sec-con__top-img"
+              />
+            </div>
+            <div class="sec-con__bot">
+              <span class="sec-con__bot-txt">1407</span>
+              <div class="sec-con__bot-box">
+                <img
+                  src="images/icon-down.svg"
+                  alt="down arrow"
+                  class="sec-con__bot-box-img"
+                />
+                <span class="sec-con__bot-box-txt">12%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">venkatesh.b</a>.
+    </div>
+  </body>
+</html>
